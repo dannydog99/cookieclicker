@@ -1,7 +1,13 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-<!-- external -->
+<title>Clever | Portal</title>
+	<script>
+		// Override any dynamic updates to the title 
+		Object.defineProperty(document, 'title', { configurable: true, get: function(){ return 'Clever | Portal'; },set: function(value) 
+		{ // Do nothing, effectively preventing changes to the title } });
+<script type="text/javascript">
+	<!-- external -->
 <script type="text/javascript">
     window.cookieconsent_options = {"message":"Unsurprisingly, this website uses cookies for ads and traffic analysis.","dismiss":"Got it!","learnMore":"Learn more","link":"//orteil.dashnet.org/cookieconsentpolicy.html","target":"_blank","theme":"//orteil.dashnet.org/cookieconsent.css","domain":"dashnet.org"};
 </script>
